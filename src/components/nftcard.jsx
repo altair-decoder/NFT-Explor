@@ -10,7 +10,7 @@ library.add(faTwitter, faFacebook, faPinterest, faGithub, faWhatsapp, faInstagra
 const NftCard = ({ image, id, title, symbol, address, description, attributes }) => {
     return (
         <div className="shadow-lg w-1/4 mr-3 mb-4 bg-slate-100 rounded-md" >
-            <img className='object-cover h-96 w-96' key={id} src={image}></img>
+            <img className='object-cover h-96 w-full' key={id} src={image}></img>
             <div className="p-3">
                 <div className="flex mb-3">
                     <div className="flex-grow">
